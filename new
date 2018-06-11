@@ -1,0 +1,1666 @@
+<html>
+
+
+<head>
+
+
+
+<!-- Reference to tables.css script in Hostinger File Manager -->
+    <link rel="stylesheet" type="text/css" href="https://www.andrewswxcenter.com/files/style.css">
+
+    <script src="tsorter.min.js" type="text/javascript"></script>
+
+    <script>
+
+function init() {
+    var sorter = tsorter.create('cwfa');
+}
+    
+window.onload = init;
+
+    </script>
+
+</head>
+
+
+
+
+<body>
+
+<div>
+
+<table id="cwfa" class="cwfa">
+<tbody>
+
+<tr>
+<th>CWFA ID</th>
+<th>WFO Name</th>
+<th>NWS Region*</th>
+<th data-tsorter="numeric">Area (sq. mi)</th>
+<th data-tsorter="numeric">Population</th>
+<th data-tsorter="numeric">States</th>
+<th data-tsorter="numeric">Counties*</th>
+<th>Largest City in CWFA*</th>
+<th>Most Populous County</th>
+<th>Least Populous County</th>
+<th>NEXRAD Dopplers*</th>
+</tr>
+
+<tr>
+<td>Total</td>
+<td>-</td>
+<td>-</td>
+<td>3,600,542</td>
+<td>327,056,856</td>
+<td>50</td>
+<td>3,214</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>OKX</td>
+<td>New York City, NY</td>
+<td>Eastern</td>
+<td>6,380</td>
+<td>18,882,993</td>
+<td>3</td>
+<td>20</td>
+<td>Brooklyn/NYC, NY</td>
+<td>Kings County, NY</td>
+<td>Putnam County, NY</td>
+<td>KOKX</td>
+</tr>
+<tr>
+<td>PHI</td>
+<td>Philadelphia, PA</td>
+<td>Eastern</td>
+<td>15,346</td>
+<td>12,065,956</td>
+<td>4</td>
+<td>34</td>
+<td>-</td>
+<td>Philadelphia County, PA</td>
+<td>Kent County, MD</td>
+<td>KDIX, KDOX</td>
+</tr>
+<tr>
+<td>LOX</td>
+<td>Los Angeles, CA</td>
+<td>Western</td>
+<td>12,028</td>
+<td>11,716,710</td>
+<td>1</td>
+<td>4</td>
+<td>-</td>
+<td>Los Angeles County, CA</td>
+<td>San Luis Obispo County, CA</td>
+<td>KSOX</td>
+</tr>
+<tr>
+<td>SGX</td>
+<td>San Diego, CA</td>
+<td>Western</td>
+<td>12,089</td>
+<td>11,018,118</td>
+<td>1</td>
+<td>4</td>
+<td>-</td>
+<td>San Diego County, CA</td>
+<td>San Bernadino County, CA</td>
+<td>KNKX</td>
+</tr>
+<tr>
+<td>LWX</td>
+<td>Baltimore, MD/Washington, D.C.</td>
+<td>Eastern</td>
+<td>19,067</td>
+<td>10,129,160</td>
+<td>3</td>
+<td>44</td>
+<td>Washington, D.C.</td>
+<td>Fairfax County, VA</td>
+<td>Highland County, VA</td>
+<td>KLWX, KDOX</td>
+</tr>
+<tr>
+<td>LOT</td>
+<td>Chicago, IL</td>
+<td>Central</td>
+<td>14,204</td>
+<td>10,077,451</td>
+<td>2</td>
+<td>23</td>
+<td>-</td>
+<td>Cook County, IL</td>
+<td>Benton County, IL</td>
+<td>KLOT, KMKX</td>
+</tr>
+<tr>
+<td>BOX</td>
+<td>Boston, MA</td>
+<td>Eastern</td>
+<td>9,933</td>
+<td>8,901,001</td>
+<td>3</td>
+<td>21</td>
+<td>-</td>
+<td>Middlesex County, MA</td>
+<td>Nantucket County, MA</td>
+<td>KBOX</td>
+</tr>
+<tr>
+<td>FWD</td>
+<td>Dallas/Forth Worth, TX</td>
+<td>Southern</td>
+<td>39,373</td>
+<td>8,805,236</td>
+<td>1</td>
+<td>46</td>
+<td>Dallas, TX</td>
+<td>Dallas County, TX</td>
+<td>Mills County, TX</td>
+<td>KFWS, KDYX, KGRK</td>
+</tr>
+<tr>
+<td>FFC</td>
+<td>Atlanta, GA</td>
+<td>Southern</td>
+<td>32,212</td>
+<td>8,159,073</td>
+<td>1</td>
+<td>96</td>
+<td>-</td>
+<td>Fulton County, GA</td>
+<td>Taliaferro County, GA</td>
+<td>KFFC, KJGX, KHTX</td>
+</tr>
+<tr>
+<td>MTR</td>
+<td>San Francisco Bay Area, CA</td>
+<td>Western</td>
+<td>11,344</td>
+<td>8,013,123</td>
+<td>1</td>
+<td>11</td>
+<td>San Jose, CA</td>
+<td>Santa Clara County, CA</td>
+<td>San Benito County, CA</td>
+<td>KMUX, KDAX</td>
+</tr>
+<tr>
+<td>HGX</td>
+<td>Houston/Galveston, TX</td>
+<td>Southern</td>
+<td>20,271</td>
+<td>7,386,474</td>
+<td>1</td>
+<td>23</td>
+<td>Houston, TX</td>
+<td>Harris County, TX</td>
+<td>Madison County, TX</td>
+<td>KHGX</td>
+</tr>
+<tr>
+<td>MFL</td>
+<td>Miami, FL</td>
+<td>Southern</td>
+<td>9,922</td>
+<td>6,563,860</td>
+<td>1</td>
+<td>7</td>
+<td>-</td>
+<td>Miami-Dade County, FL</td>
+<td>Glades County, FL</td>
+<td>KAMX</td>
+</tr>
+<tr>
+<td>ILN</td>
+<td>Cincinnati, OH</td>
+<td>Eastern</td>
+<td>20,374</td>
+<td>5,943,859</td>
+<td>3</td>
+<td>52</td>
+<td>Columbus, OH</td>
+<td>Franklin County, OH</td>
+<td>Robertson County, KY</td>
+<td>KILN</td>
+</tr>
+<tr>
+<td>TBW</td>
+<td>Tampa Bay Area, FL</td>
+<td>Southern</td>
+<td>12,248</td>
+<td>5,859,233</td>
+<td>1</td>
+<td>15</td>
+<td>Tampa, FL</td>
+<td>Hillsborough County, FL</td>
+<td>Hardee County, FL</td>
+<td>KTBW</td>
+</tr>
+<tr>
+<td>CLE</td>
+<td>Cleveland, OH</td>
+<td>Eastern</td>
+<td>14,668</td>
+<td>5,511,729</td>
+<td>2</td>
+<td>30</td>
+<td>-</td>
+<td>Cuyahoga County, OH</td>
+<td>Wyandot County, OH</td>
+<td>KCLE</td>
+</tr>
+<tr>
+<td>GSP</td>
+<td>Greenville/Spartanburg, SC</td>
+<td>Eastern</td>
+<td>21,243</td>
+<td>5,251,225</td>
+<td>3</td>
+<td>46</td>
+<td>Charlotte, NC</td>
+<td>Mecklenburg County, NC</td>
+<td>Graham County, NC</td>
+<td>KGSP, KMRX</td>
+</tr>
+<tr>
+<td>SEW</td>
+<td>Seattle/Tacoma, WA</td>
+<td>Western</td>
+<td>20,356</td>
+<td>5,094,992</td>
+<td>1</td>
+<td>14</td>
+<td>Seattle, WA</td>
+<td>King County, WA</td>
+<td>San Juan County, WA</td>
+<td>KATX, KLGX</td>
+</tr>
+<tr>
+<td>STO</td>
+<td>Sacramento, CA</td>
+<td>Western</td>
+<td>28,509</td>
+<td>4,997,043</td>
+<td>1</td>
+<td>23</td>
+<td>-</td>
+<td>Sacramento County, CA</td>
+<td>Alpine County, CA</td>
+<td>KDAX, KBBX</td>
+</tr>
+<tr>
+<td>EWX</td>
+<td>Austin/San Antonio, TX</td>
+<td>Southern</td>
+<td>35,871</td>
+<td>4,945,558</td>
+<td>1</td>
+<td>33</td>
+<td>San Antonio, TX</td>
+<td>Bexar County, TX</td>
+<td>Edwards County, TX</td>
+<td>KEWX, KDFX, KGRK</td>
+</tr>
+<tr>
+<td>MPX</td>
+<td>Minneapolis, MN</td>
+<td>Central</td>
+<td>33,567</td>
+<td>4,737,458</td>
+<td>2</td>
+<td>51</td>
+<td>-</td>
+<td>Hennepin County, MN</td>
+<td>Lac qui Parle County, MN</td>
+<td>KMPX</td>
+</tr>
+<tr>
+<td>RAH</td>
+<td>Raleigh, NC</td>
+<td>Eastern</td>
+<td>16,591</td>
+<td>4,675,060</td>
+<td>1</td>
+<td>31</td>
+<td>-</td>
+<td>Wake County, NC</td>
+<td>Warren County, NC</td>
+<td>KRAX</td>
+</tr>
+<tr>
+<td>PSR</td>
+<td>Phoenix, AZ</td>
+<td>Western</td>
+<td>32,334</td>
+<td>4,631,482</td>
+<td>2</td>
+<td>8</td>
+<td>-</td>
+<td>Maricopa County, AZ</td>
+<td>La Paz County, AZ</td>
+<td>KIWA, KYUX</td>
+</tr>
+<tr>
+<td>MLB</td>
+<td>Melbourne, FL</td>
+<td>Southern</td>
+<td>8,721</td>
+<td>4,206,836</td>
+<td>1</td>
+<td>10</td>
+<td>Orlando, FL</td>
+<td>Orange County, FL</td>
+<td>Okeechobee County, FL</td>
+<td>KMLB</td>
+</tr>
+<tr>
+<td>BOU</td>
+<td>Denver/Boulder, CO</td>
+<td>Central</td>
+<td>29,390</td>
+<td>3,924,406</td>
+<td>1</td>
+<td>22</td>
+<td>Denver, CO</td>
+<td>Denver County, CO</td>
+<td>Jackson County, CO</td>
+<td>KFTG, KCYS</td>
+</tr>
+<tr>
+<td>PBZ</td>
+<td>Pittsburgh, PA</td>
+<td>Eastern</td>
+<td>19,049</td>
+<td>3,747,036</td>
+<td>4</td>
+<td>36</td>
+<td>-</td>
+<td>Allegheny County, PA</td>
+<td>Tucker County, WV</td>
+<td>KPBZ</td>
+</tr>
+<tr>
+<td>AKQ</td>
+<td>Wakefield, VA</td>
+<td>Eastern</td>
+<td>18,933</td>
+<td>3,705,740</td>
+<td>3</td>
+<td>51</td>
+<td>Virginia Beach, VA</td>
+<td>Chesterfield County, VA</td>
+<td>Surry County, VA</td>
+<td>KAKQ</td>
+</tr>
+<tr>
+<td>PQR</td>
+<td>Portland, OR</td>
+<td>Western</td>
+<td>22,168</td>
+<td>3,691,208</td>
+<td>2</td>
+<td>19</td>
+<td>-</td>
+<td>Multnomah County, OR</td>
+<td>Wahkiakum County, WA</td>
+<td>KRTX</td>
+</tr>
+<tr>
+<td>LSX</td>
+<td>St. Louis, MO</td>
+<td>Central</td>
+<td>26,695</td>
+<td>3,673,795</td>
+<td>2</td>
+<td>46</td>
+<td>-</td>
+<td>St. Louis County, MO</td>
+<td>King County, MO</td>
+<td>KLSX</td>
+</tr>
+<tr>
+<td>SJU</td>
+<td>San Juan, PR</td>
+<td>Southern</td>
+<td>3,583</td>
+<td>3,659,351</td>
+<td>N/A</td>
+<td>81</td>
+<td>-</td>
+<td>San Juan Minicipio, PR</td>
+<td>Culebra Municipio, PR</td>
+<td>TJUA, TSJU, TJRV, TJBQ</td>
+</tr>
+<tr>
+<td>CTP</td>
+<td>Central Pennsylvania, PA</td>
+<td>Eastern</td>
+<td>23,392</td>
+<td>3,444,423</td>
+<td>1</td>
+<td>33</td>
+<td>Lancaster, PA</td>
+<td>Lancaster County, PA</td>
+<td>Cameron County, PA</td>
+<td>KCCX</td>
+</tr>
+<tr>
+<td>MKX</td>
+<td>Milwaukee, WI</td>
+<td>Central</td>
+<td>11,910</td>
+<td>3,354,065</td>
+<td>1</td>
+<td>20</td>
+<td>-</td>
+<td>Milwaukee County, WI</td>
+<td>Marquette County, WI</td>
+<td>KMKX</td>
+</tr>
+<tr>
+<td>IND</td>
+<td>Indianapolis, IN</td>
+<td>Central</td>
+<td>15,809</td>
+<td>3,303,254</td>
+<td>1</td>
+<td>39</td>
+<td>-</td>
+<td>Marion County, IN</td>
+<td>Warren County, IN</td>
+<td>KIND</td>
+</tr>
+<tr>
+<td>LIX</td>
+<td>New Orleans/Baton Rouge, LA</td>
+<td>Southern</td>
+<td>17,367</td>
+<td>3,037,645</td>
+<td>2</td>
+<td>30</td>
+<td>New Orleans, LA</td>
+<td>East Baton Rouge Parish, LA</td>
+<td>Wilkinson County, MS</td>
+<td>KLIX</td>
+</tr>
+<tr>
+<td>SLC</td>
+<td>Salt Lake City, UT</td>
+<td>Western</td>
+<td>71,018</td>
+<td>3,010,197</td>
+<td>2</td>
+<td>27</td>
+<td>-</td>
+<td>Salt Lake County, UT</td>
+<td>Piute County, UT</td>
+<td>KMTX, KICX</td>
+</tr>
+<tr>
+<td>HNX</td>
+<td>San Joaquin Valley, CA</td>
+<td>Western</td>
+<td>26,664</td>
+<td>2,969,508</td>
+<td>1</td>
+<td>8</td>
+<td>Fresno, CA</td>
+<td>Fresno County, CA</td>
+<td>Mariposa County, CA</td>
+<td>KHNX, KEYX</td>
+</tr>
+<tr>
+<td>LMK</td>
+<td>Louisville, KY</td>
+<td>Central</td>
+<td>19,778</td>
+<td>2,906,182</td>
+<td>2</td>
+<td>59</td>
+<td>-</td>
+<td>Jefferson County, KY</td>
+<td>Cumberland County, KY</td>
+<td>KLVX</td>
+</tr>
+<tr>
+<td>BUF</td>
+<td>Buffalo, NY</td>
+<td>Eastern</td>
+<td>12,892</td>
+<td>2,878,010</td>
+<td>1</td>
+<td>16</td>
+<td>-</td>
+<td>Erie County, NY</td>
+<td>Lewis County, NY</td>
+<td>KBUF</td>
+</tr>
+<tr>
+<td>GRR</td>
+<td>Grand Rapids. MI</td>
+<td>Central</td>
+<td>14,418</td>
+<td>2,828,619</td>
+<td>1</td>
+<td>23</td>
+<td>-</td>
+<td>Kent County, MI</td>
+<td>Lake County, MI</td>
+<td>KGRR</td>
+</tr>
+<tr>
+<td>JAX</td>
+<td>Jacksonville, FL</td>
+<td>Southern</td>
+<td>17,775</td>
+<td>2,818,177</td>
+<td>2</td>
+<td>29</td>
+<td>-</td>
+<td>Duval County, FL</td>
+<td>Echols County, GA</td>
+<td>KJAX</td>
+</tr>
+<tr>
+<td>VEF</td>
+<td>Las Vegas, NV</td>
+<td>Western</td>
+<td>69,775</td>
+<td>2,780,115</td>
+<td>3</td>
+<td>7</td>
+<td>-</td>
+<td>Clark County, NV</td>
+<td>Esmeralda County, NV</td>
+<td>KESX</td>
+</tr>
+<tr>
+<td>MEG</td>
+<td>Memphis, TN</td>
+<td>Southern</td>
+<td>31,609</td>
+<td>2,741,049</td>
+<td>4</td>
+<td>57</td>
+<td>-</td>
+<td>Shelby County, TN</td>
+<td>Quitman County, MS</td>
+<td>KNQA</td>
+</tr>
+<tr>
+<td>BMX</td>
+<td>Birmingham, AL</td>
+<td>Southern</td>
+<td>28,325</td>
+<td>2,702,662</td>
+<td>1</td>
+<td>39</td>
+<td>-</td>
+<td>Jefferson County, AL</td>
+<td>Greene County, AL</td>
+<td>KBMX</td>
+</tr>
+<tr>
+<td>Average</td>
+<td>-</td>
+<td>-</td>
+<td>29,512</td>
+<td>2,680,794</td>
+<td>1.8</td>
+<td>26.34</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>OHX</td>
+<td>Nashville, TN</td>
+<td>Southern</td>
+<td>16,688</td>
+<td>2,648,483</td>
+<td>1</td>
+<td>38</td>
+<td>-</td>
+<td>Davidson County, TN</td>
+<td>Pickett County, TN</td>
+<td>KOHX, KHPX, KHTX</td>
+</tr>
+<tr>
+<td>EAX</td>
+<td>Kansas City/Pleasant Hill, MO</td>
+<td>Central</td>
+<td>24,360</td>
+<td>2,612,533</td>
+<td>2</td>
+<td>44</td>
+<td>Kansas City, MO</td>
+<td>Jackson County, MO</td>
+<td>Worth County, MO</td>
+<td>KEAX</td>
+</tr>
+<tr>
+<td>MRX</td>
+<td>Knoxville/Tri-Cities, TN</td>
+<td>Southern</td>
+<td>16,404</td>
+<td>2,586,149</td>
+<td>3</td>
+<td>42</td>
+<td>Knoxville, TN</td>
+<td>Knox County, TN</td>
+<td>City of Norton, VA</td>
+<td>KMRX</td>
+</tr>
+<tr>
+<td>OUN</td>
+<td>Oklahoma City, OK</td>
+<td>Southern</td>
+<td>48,103</td>
+<td>2,503,074</td>
+<td>2</td>
+<td>56</td>
+<td>-</td>
+<td>Oklahoma County, OK</td>
+<td>Foard County, TX</td>
+<td>KTLX, KFDR, KVNX</td>
+</tr>
+<tr>
+<td>BGM</td>
+<td>Binghamton, NY</td>
+<td>Eastern</td>
+<td>17,854</td>
+<td>2,496,799</td>
+<td>2</td>
+<td>24</td>
+<td>Syracuse, NY</td>
+<td>Onondaga County, NY</td>
+<td>Schuyler County, NY</td>
+<td>KBGM</td>
+</tr>
+<tr>
+<td>IWX</td>
+<td>Northern Indiana, IN</td>
+<td>Central</td>
+<td>16,050</td>
+<td>2,347,165</td>
+<td>3</td>
+<td>37</td>
+<td>Fort Wayne, IN</td>
+<td>Allen County, IN</td>
+<td>Blackford County, IN</td>
+<td>KIWX</td>
+</tr>
+<tr>
+<td>GYX</td>
+<td>Portland, ME</td>
+<td>Eastern</td>
+<td>21,650</td>
+<td>2,343,797</td>
+<td>2</td>
+<td>21</td>
+<td>Manchester, NH</td>
+<td>Hillsborough County, NH</td>
+<td>Franklin County, ME</td>
+<td>KGYX</td>
+</tr>
+<tr>
+<td>TSA</td>
+<td>Tulsa, OK</td>
+<td>Southern</td>
+<td>26,083</td>
+<td>2,272,985</td>
+<td>2</td>
+<td>32</td>
+<td>-</td>
+<td>Tulsa County, OK</td>
+<td>Latimer County, OK</td>
+<td>KINX</td>
+</tr>
+<tr>
+<td>ALY</td>
+<td>Albany, NY</td>
+<td>Eastern</td>
+<td>15,524</td>
+<td>2,149,470</td>
+<td>4</td>
+<td>19</td>
+<td>-</td>
+<td>Albany County, NY</td>
+<td>Hamilton County, NY</td>
+<td>KENX, KTYX</td>
+</tr>
+<tr>
+<td>SHV</td>
+<td>Shreveport, LA</td>
+<td>Southern</td>
+<td>35,684</td>
+<td>2,110,414</td>
+<td>4</td>
+<td>48</td>
+<td>-</td>
+<td>Caddo Parish, LA</td>
+<td>Lafayette County, AR</td>
+<td>KSHV</td>
+</tr>
+<tr>
+<td>SHV</td>
+<td>Shreveport, LA</td>
+<td>Southern</td>
+<td>35,684</td>
+<td>2,110,414</td>
+<td>4</td>
+<td>48</td>
+<td>-</td>
+<td>Caddo Parish, LA</td>
+<td>Lafayette County, AR</td>
+<td>KSHV</td>
+</tr>
+<tr>
+<td>CAE</td>
+<td>Columbia, SC</td>
+<td>Eastern</td>
+<td>13,688</td>
+<td>1,878,538</td>
+<td>2</td>
+<td>23</td>
+<td>-</td>
+<td>Richland County, SC</td>
+<td>Lincoln County, GA</td>
+<td>KCAE</td>
+</tr>
+<tr>
+<td>JAN</td>
+<td>Jackson, MS</td>
+<td>Southern</td>
+<td>35,381</td>
+<td>1,796,323</td>
+<td>3</td>
+<td>58</td>
+<td>-</td>
+<td>Hinds County, MS</td>
+<td>Issaquena County, MS</td>
+<td>KDGX</td>
+</tr>
+<tr>
+<td>RNK</td>
+<td>Blacksburg, VA</td>
+<td>Eastern</td>
+<td>19,988</td>
+<td>1,781,473</td>
+<td>3</td>
+<td>40</td>
+<td>Roanoke, VA</td>
+<td>Montgomery County, VA</td>
+<td>Bath County, VA</td>
+<td>KFCX, KRLX</td>
+</tr>
+<tr>
+<td>TAE</td>
+<td>Tallahassee, FL</td>
+<td>Southern</td>
+<td>24,777</td>
+<td>1,699,143</td>
+<td>3</td>
+<td>48</td>
+<td>-</td>
+<td>Leon County, FL</td>
+<td>Quitman County, GA</td>
+<td>KTLH</td>
+</tr>
+<tr>
+<td>ILX</td>
+<td>Central Illinois, IL</td>
+<td>Central</td>
+<td>19,523</td>
+<td>1,668,007</td>
+<td>1</td>
+<td>35</td>
+<td>Springfield, IL</td>
+<td>Champaign County, IL</td>
+<td>Scott County, IL</td>
+<td>KILX</td>
+</tr>
+<tr>
+<td>CHS</td>
+<td>Charleston, SC</td>
+<td>Eastern</td>
+<td>11,779</td>
+<td>1,662,904</td>
+<td>2</td>
+<td>20</td>
+<td>-</td>
+<td>Charleston County, SC</td>
+<td>Jenkins County, GA</td>
+<td>KCLX</td>
+</tr>
+<tr>
+<td>LCH</td>
+<td>Lake Charles, LA</td>
+<td>Southern</td>
+<td>19,821</td>
+<td>1,653,766</td>
+<td>2</td>
+<td>22</td>
+<td>Lafayette, LA</td>
+<td>Jefferson County, TX</td>
+<td>Cameron Parish, LA</td>
+<td>KLCH</td>
+</tr>
+<tr>
+<td>LZK</td>
+<td>Little Rock, AR</td>
+<td>Southern</td>
+<td>32,245</td>
+<td>1,644,388</td>
+<td>1</td>
+<td>45</td>
+<td>-</td>
+<td>Pulaski County, AR</td>
+<td>Calhoun County, AR</td>
+<td>KLZK</td>
+</tr>
+<tr>
+<td>MOB</td>
+<td>Mobile, AL</td>
+<td>Southern</td>
+<td>18,047</td>
+<td>1,606,242</td>
+<td>3</td>
+<td>20</td>
+<td>-</td>
+<td>Mobile County, AL</td>
+<td>Wilcox County, AL</td>
+<td>KMOB</td>
+</tr>
+<tr>
+<td>ABQ</td>
+<td>Albuquerque, NM</td>
+<td>Southern</td>
+<td>87,942</td>
+<td>1,605,805</td>
+<td>1</td>
+<td>25</td>
+<td>-</td>
+<td>Bernalillo County, NM</td>
+<td>Harding County, NM</td>
+<td>KABX</td>
+</tr>
+<tr>
+<td>RLX</td>
+<td>Charleston, WV</td>
+<td>Eastern</td>
+<td>22,097</td>
+<td>1,594,889</td>
+<td>4</td>
+<td>49</td>
+<td>-</td>
+<td>Kanawha County, WV</td>
+<td>Wirt County, WV</td>
+<td>KRLX</td>
+</tr>
+<tr>
+<td>PAH</td>
+<td>Paducah, KY</td>
+<td>Central</td>
+<td>24,692</td>
+<td>1,593,768</td>
+<td>4</td>
+<td>58</td>
+<td>Evansville, IN</td>
+<td>Vanderburgh County, IN</td>
+<td>Hardin County, IL</td>
+<td>KPAH, KHPX, KVWX</td>
+</tr>
+<tr>
+<td>OAX</td>
+<td>Omaha, NE</td>
+<td>Central</td>
+<td>22,164</td>
+<td>1,583,715</td>
+<td>2</td>
+<td>38</td>
+<td>-</td>
+<td>Douglas County, NE</td>
+<td>Pawnee County, NE</td>
+<td>KOAX</td>
+</tr>
+<tr>
+<td>DMX</td>
+<td>Des Moines, IA</td>
+<td>Central</td>
+<td>28,185</td>
+<td>1,541,872</td>
+<td>1</td>
+<td>51</td>
+<td>-</td>
+<td>Polk County, IA</td>
+<td>Adams County, IA</td>
+<td>KDMX</td>
+</tr>
+<tr>
+<td>DVN</td>
+<td>Quad Cities, IA</td>
+<td>Central</td>
+<td>20,291</td>
+<td>1,502,297</td>
+<td>3</td>
+<td>36</td>
+<td>Cedar Rapids, IA</td>
+<td>Linn County, IA</td>
+<td>Scotland County, MO</td>
+<td>KDVN</td>
+</tr>
+<tr>
+<td>HFO</td>
+<td>Honolulu, HI</td>
+<td>Pacific</td>
+<td>6,431</td>
+<td>1,428,469</td>
+<td>1</td>
+<td>5</td>
+<td>-</td>
+<td>Honolulu County, HI</td>
+<td>Kauai County, HI</td>
+<td>PHMO, PHKM, PHWA, PHKI</td>
+</tr>
+<tr>
+<td>GRB</td>
+<td>Green Bay, WI</td>
+<td>Central</td>
+<td>17,511</td>
+<td>1,387,941</td>
+<td>1</td>
+<td>22</td>
+<td>-</td>
+<td>Brown County, WI</td>
+<td>Florence County, WI</td>
+<td>KGRB</td>
+</tr>
+<tr>
+<td>BRO</td>
+<td>Brownsville, TX</td>
+<td>Southern</td>
+<td>8,957</td>
+<td>1,385,023</td>
+<td>1</td>
+<td>8</td>
+<td>-</td>
+<td>Hidalgo County, TX</td>
+<td>Kenedy County, TX</td>
+<td>KBRO</td>
+</tr>
+<tr>
+<td>SGF</td>
+<td>Springfield, MO</td>
+<td>Central</td>
+<td>24,882</td>
+<td>1,357,671</td>
+<td>2</td>
+<td>37</td>
+<td>-</td>
+<td>Greene County, MO</td>
+<td>Dade County, MO</td>
+<td>KSGF</td>
+</tr>
+<tr>
+<td>ILM</td>
+<td>Wilmington, NC</td>
+<td>Eastern</td>
+<td>10,498</td>
+<td>1,344,208</td>
+<td>2</td>
+<td>14</td>
+<td>-</td>
+<td>Horry County, SC</td>
+<td>Marlboro County, SC</td>
+<td>KLTX</td>
+</tr>
+<tr>
+<td>TWC</td>
+<td>Tucson, AZ</td>
+<td>Western</td>
+<td>26,286</td>
+<td>1,278,713</td>
+<td>1</td>
+<td>6</td>
+<td>-</td>
+<td>Pima County, AZ</td>
+<td>Greenlee County, AZ</td>
+<td>KEMX</td>
+</tr>
+<tr>
+<td>OTX</td>
+<td>Spokane, WA</td>
+<td>Western</td>
+<td>39,101</td>
+<td>1,233,495</td>
+<td>2</td>
+<td>21</td>
+<td>-</td>
+<td>Spokane County, WA</td>
+<td>Garfield County, WA</td>
+<td>KOTX, KPDT</td>
+</tr>
+<tr>
+<td>EPZ</td>
+<td>El Paso, TX</td>
+<td>Southern</td>
+<td>30,643</td>
+<td>1,189,811</td>
+<td>2</td>
+<td>8</td>
+<td>-</td>
+<td>El Paso County, TX</td>
+<td>Hudspeth County, TX</td>
+<td>KEPZ</td>
+</tr>
+<tr>
+<td>HUN</td>
+<td>Huntsville, AL</td>
+<td>Southern</td>
+<td>9,286</td>
+<td>1,162,472</td>
+<td>2</td>
+<td>14</td>
+<td>-</td>
+<td>Madison County, AL</td>
+<td>Moore County, TN</td>
+<td>KHTX</td>
+</tr>
+<tr>
+<td>PUB</td>
+<td>Pueblo, CO</td>
+<td>Central</td>
+<td>32,931</td>
+<td>1,070,771</td>
+<td>1</td>
+<td>21</td>
+<td>Colorado Springs, CO</td>
+<td>El Paso County, CO</td>
+<td>Mineral County, CO</td>
+<td>KPUX</td>
+</tr>
+<tr>
+<td>PDT</td>
+<td>Pendleton, OR</td>
+<td>Western</td>
+<td>42,745</td>
+<td>1,049,828</td>
+<td>2</td>
+<td>19</td>
+<td>Yakima, WA</td>
+<td>Yakima County, WA</td>
+<td>Wheeler County, OR</td>
+<td>KPDT</td>
+</tr>
+<tr>
+<td>ICT</td>
+<td>Wichita, KS</td>
+<td>Central</td>
+<td>21,496</td>
+<td>1,007,062</td>
+<td>1</td>
+<td>26</td>
+<td>-</td>
+<td>Sedgwick, KS</td>
+<td>Elk County, KS</td>
+<td>KICT</td>
+</tr>
+<tr>
+<td>CRP</td>
+<td>Corpus Christi, TX</td>
+<td>Southern</td>
+<td>16,392</td>
+<td>992,679</td>
+<td>1</td>
+<td>15</td>
+<td>-</td>
+<td>Neuces County, TX</td>
+<td>McMullen County, TX</td>
+<td>KCRP</td>
+</tr>
+<tr>
+<td>BOI</td>
+<td>Boise, ID</td>
+<td>Western</td>
+<td>49,506</td>
+<td>941,590</td>
+<td>2</td>
+<td>17</td>
+<td>-</td>
+<td>Ada County, ID</td>
+<td>Camas County, ID</td>
+<td>KCBX</td>
+</tr>
+<tr>
+<td>ARX</td>
+<td>La Crosse, WI</td>
+<td>Central</td>
+<td>19,975</td>
+<td>890,092</td>
+<td>3</td>
+<td>28</td>
+<td>Rochester, MN</td>
+<td>Olmstead County, MN</td>
+<td>Howard County, IA</td>
+<td>KARX</td>
+</tr>
+<tr>
+<td>FSD</td>
+<td>Sioux Falls, SD</td>
+<td>Central</td>
+<td>28,587</td>
+<td>847,981</td>
+<td>4</td>
+<td>45</td>
+<td>-</td>
+<td>Minnehaha County, SD</td>
+<td>Jerauld County, SD</td>
+<td>KFSD</td>
+</tr>
+<tr>
+<td>MHX</td>
+<td>Morehead City, NC</td>
+<td>Eastern</td>
+<td>8,101</td>
+<td>825,316</td>
+<td>1</td>
+<td>15</td>
+<td>Greenville, NC</td>
+<td>Onslow County, NC</td>
+<td>Tyrrell County, NC</td>
+<td>KMHX</td>
+</tr>
+<tr>
+<td>BTV</td>
+<td>Burlington, VT</td>
+<td>Eastern</td>
+<td>15,638</td>
+<td>824,880</td>
+<td>2</td>
+<td>16</td>
+<td>-</td>
+<td>Chittenden County, VT</td>
+<td>Essex County, VT</td>
+<td>KCXX, KTYX</td>
+</tr>
+<tr>
+<td>REV</td>
+<td>Reno, NV</td>
+<td>Western</td>
+<td>35,609</td>
+<td>741,618</td>
+<td>2</td>
+<td>16</td>
+<td>-</td>
+<td>Washoe County, NV</td>
+<td>Alpine County, CA</td>
+<td>KRGX</td>
+</tr>
+<tr>
+<td>JKL</td>
+<td>Jackson, KY</td>
+<td>Central</td>
+<td>11,770</td>
+<td>721,228</td>
+<td>1</td>
+<td>33</td>
+<td>Somerset, KY</td>
+<td>Pulaski County, KY</td>
+<td>Owsley County, KY</td>
+<td>KJKL</td>
+</tr>
+<tr>
+<td>FGF</td>
+<td>Eastern North Dakota, ND</td>
+<td>Central</td>
+<td>42,113</td>
+<td>694,304</td>
+<td>2</td>
+<td>35</td>
+<td>Fargo, ND</td>
+<td>Cass County, ND</td>
+<td>Steele County, ND</td>
+<td>KMVX</td>
+</tr>
+<tr>
+<td>MAF</td>
+<td>Midland/Odessa, TX</td>
+<td>Southern</td>
+<td>51,200</td>
+<td>653,153</td>
+<td>2</td>
+<td>26</td>
+<td>Midland, TX</td>
+<td>Midland County, TX</td>
+<td>Loving County, TX</td>
+<td>KMAF</td>
+</tr>
+<tr>
+<td>TOP</td>
+<td>Topeka, KS</td>
+<td>Central</td>
+<td>15,790</td>
+<td>648,284</td>
+<td>1</td>
+<td>23</td>
+<td>-</td>
+<td>Shawnee County, KS</td>
+<td>Republic County, KS</td>
+<td>KTWX</td>
+</tr>
+<tr>
+<td>MFR</td>
+<td>Medford, OR</td>
+<td>Western</td>
+<td>37,327</td>
+<td>624,040</td>
+<td>2</td>
+<td>9</td>
+<td>-</td>
+<td>Jackson County, OR</td>
+<td>Lake County, OR</td>
+<td>KMAX</td>
+</tr>
+<tr>
+<td>FGZ</td>
+<td>Flagstaff, AZ</td>
+<td>Western</td>
+<td>50,509</td>
+<td>603,164</td>
+<td>1</td>
+<td>5</td>
+<td>-</td>
+<td>Yavapai County, AZ</td>
+<td>Gila County, AZ</td>
+<td>KFSX</td>
+</tr>
+<tr>
+<td>APX</td>
+<td>North Central Lower Michigan, MI</td>
+<td>Central</td>
+<td>15,234</td>
+<td>595,411</td>
+<td>1</td>
+<td>25</td>
+<td>Traverse City, MI</td>
+<td>Grand Traverse County, MI</td>
+<td>Oscoda County, MI</td>
+<td>KAPX</td>
+</tr>
+<tr>
+<td>GJT</td>
+<td>Grand Junction, CO</td>
+<td>Central</td>
+<td>51,427</td>
+<td>589,164</td>
+<td>2</td>
+<td>22</td>
+<td>-</td>
+<td>Mesa County, CO</td>
+<td>San Juan County</td>
+<td>KGJX</td>
+</tr>
+<tr>
+<td>DLH</td>
+<td>Duluth, MN</td>
+<td>Central</td>
+<td>33,653</td>
+<td>587,476</td>
+<td>2</td>
+<td>18</td>
+<td>-</td>
+<td>St. Loius County, MN</td>
+<td>Cook County, MN</td>
+<td>KDLH</td>
+</tr>
+<tr>
+<td>AFC</td>
+<td>Anchorage, AK</td>
+<td>Alaska</td>
+<td>184,635</td>
+<td>509,120</td>
+<td>1</td>
+<td>15</td>
+<td>-</td>
+<td>Matanuska-Sustina Borough, AK</td>
+<td>Bristol Bay Borough, AK</td>
+<td>PAHG, PAKC, PAIH, PABC</td>
+</tr>
+<tr>
+<td>LUB</td>
+<td>Lubbock, TX</td>
+<td>Southern</td>
+<td>21,547</td>
+<td>473,167</td>
+<td>1</td>
+<td>24</td>
+<td>-</td>
+<td>Lubbock County, TX</td>
+<td>King County, TX</td>
+<td>KLBB</td>
+</tr>
+<tr>
+<td>PIH</td>
+<td>Pocatello/Idaho Falls, ID</td>
+<td>Western</td>
+<td>31,043</td>
+<td>449,474</td>
+<td>1</td>
+<td>19</td>
+<td>Idaho Falls, ID</td>
+<td>Bonneville County, ID</td>
+<td>Clark County, ID</td>
+<td>KSFX</td>
+</tr>
+<tr>
+<td>AMA</td>
+<td>Amarillo, TX</td>
+<td>Southern</td>
+<td>26,390</td>
+<td>429,384</td>
+<td>2</td>
+<td>23</td>
+<td>-</td>
+<td>Randall County, TX</td>
+<td>Roberts County, TX</td>
+<td>KAMA</td>
+</tr>
+<tr>
+<td>SJT</td>
+<td>San Angelo, TX</td>
+<td>Southern</td>
+<td>26,917</td>
+<td>421,105</td>
+<td>1</td>
+<td>24</td>
+<td>Abilene, TX</td>
+<td>Taylor County, TX</td>
+<td>Sterling County, TX</td>
+<td>KSJT, KDYX</td>
+</tr>
+<tr>
+<td>BIS</td>
+<td>Bismarck, ND</td>
+<td>Central</td>
+<td>51,146</td>
+<td>415,111</td>
+<td>1</td>
+<td>36</td>
+<td>-</td>
+<td>Burleigh County, ND</td>
+<td>Slope County, ND</td>
+<td>KBIS, KMBX</td>
+</tr>
+<tr>
+<td>MSO</td>
+<td>Missoula, MT</td>
+<td>Western</td>
+<td>40,704</td>
+<td>407,275</td>
+<td>2</td>
+<td>14</td>
+<td>-</td>
+<td>Missoula County, MT</td>
+<td>Granite County, MT</td>
+<td>KMSX</td>
+</tr>
+<tr>
+<td>TFX</td>
+<td>Great Falls, MT</td>
+<td>Western</td>
+<td>51,041</td>
+<td>365,766</td>
+<td>1</td>
+<td>18</td>
+<td>-</td>
+<td>Gallatin County, MT</td>
+<td>Meagher County, MT</td>
+<td>KTFX</td>
+</tr>
+<tr>
+<td>CAR</td>
+<td>Caribou, ME</td>
+<td>Eastern</td>
+<td>20,141</td>
+<td>322,477</td>
+<td>1</td>
+<td>6</td>
+<td>Bangor, ME</td>
+<td>Penobscot County, ME</td>
+<td>Piscataquis County, ME</td>
+<td>KCBW</td>
+</tr>
+<tr>
+<td>GID</td>
+<td>Hastings, NE</td>
+<td>Central</td>
+<td>19,387</td>
+<td>302,902</td>
+<td>2</td>
+<td>30</td>
+<td>Grand Island, NE</td>
+<td>Hall County, NE</td>
+<td>Gosper County, NE</td>
+<td>KUEX</td>
+</tr>
+<tr>
+<td>UNR</td>
+<td>Rapid City, SD</td>
+<td>Central</td>
+<td>41,556</td>
+<td>299,403</td>
+<td>2</td>
+<td>19</td>
+<td>-</td>
+<td>Pennington County, SD</td>
+<td>Harding County, SD</td>
+<td>KUDX</td>
+</tr>
+<tr>
+<td>RIW</td>
+<td>Riverton, WY</td>
+<td>Central</td>
+<td>56,930</td>
+<td>280,274</td>
+<td>1</td>
+<td>11</td>
+<td>Casper, WY</td>
+<td>Natrona County, WY</td>
+<td>Hot Springs County, WY</td>
+<td>KRIW</td>
+</tr>
+<tr>
+<td>BYZ</td>
+<td>Billings, MT</td>
+<td>Western</td>
+<td>41,281</td>
+<td>277,092</td>
+<td>2</td>
+<td>16</td>
+<td>-</td>
+<td>Yellowstone County, WY</td>
+<td>Treasure County, WY</td>
+<td>KBLX</td>
+</tr>
+<tr>
+<td>CYS</td>
+<td>Cheyenne, WY</td>
+<td>Central</td>
+<td>35,813</td>
+<td>267,903</td>
+<td>2</td>
+<td>15</td>
+<td>-</td>
+<td>Laramie County, WY</td>
+<td>Banner County, NE</td>
+<td>KCYS</td>
+</tr>
+<tr>
+<td>EKA</td>
+<td>Eureka, CA</td>
+<td>Western</td>
+<td>11,318</td>
+<td>264,596</td>
+<td>1</td>
+<td>4</td>
+<td>-</td>
+<td>Humboldt County, CA</td>
+<td>Trinity County, CA</td>
+<td>KBHX, KMAX</td>
+</tr>
+<tr>
+<td>MQT</td>
+<td>Marquette, MI</td>
+<td>Central</td>
+<td>14,148</td>
+<td>254,637</td>
+<td>1</td>
+<td>13</td>
+<td>-</td>
+<td>Marquette County, MI</td>
+<td>Keweenaw County, MI</td>
+<td>KMQT</td>
+</tr>
+<tr>
+<td>DDC</td>
+<td>Dodge City, KS</td>
+<td>Central</td>
+<td>22,742</td>
+<td>213,152</td>
+<td>1</td>
+<td>27</td>
+<td>-</td>
+<td>Finney County, KS</td>
+<td>Lane County, KS</td>
+<td>KDDC</td>
+</tr>
+<tr>
+<td>ABR</td>
+<td>Aberdeen, SD</td>
+<td>Central</td>
+<td>30,573</td>
+<td>185,161</td>
+<td>2</td>
+<td>28</td>
+<td>-</td>
+<td>Brown County, SD</td>
+<td>Jones County, SD</td>
+<td>KABR</td>
+</tr>
+<tr>
+<td>AFG</td>
+<td>Fairbanks, AK</td>
+<td>Alaska</td>
+<td>359,037</td>
+<td>142,156</td>
+<td>1</td>
+<td>11</td>
+<td>-</td>
+<td>Fairbanks North Star Borough, AK</td>
+<td>Denali Borough, AK</td>
+<td>PAPD, PAEC</td>
+</tr>
+<tr>
+<td>LKN</td>
+<td>Elko, NV</td>
+<td>Western</td>
+<td>56,097</td>
+<td>129,734</td>
+<td>1</td>
+<td>6</td>
+<td>-</td>
+<td>Elko County, NV</td>
+<td>Eureka County, NV</td>
+<td>KLRX</td>
+</tr>
+<tr>
+<td>LBF</td>
+<td>North Platte, NE</td>
+<td>Central</td>
+<td>33,161</td>
+<td>104,631</td>
+<td>1</td>
+<td>26</td>
+<td>-</td>
+<td>Lincoln County, NE</td>
+<td>Arthur County, NE</td>
+<td>KLNX</td>
+</tr>
+<tr>
+<td>KEY</td>
+<td>Key West, FL</td>
+<td>Southern</td>
+<td>137</td>
+<td>79,077</td>
+<td>1</td>
+<td>1</td>
+<td>-</td>
+<td>Monroe County, FL</td>
+<td>Monroe County, FL</td>
+<td>KBYX</td>
+</tr>
+<tr>
+<td>GLD</td>
+<td>Goodland, KS</td>
+<td>Central</td>
+<td>21,017</td>
+<td>78,314</td>
+<td>3</td>
+<td>19</td>
+<td>Colby, KS</td>
+<td>Red Willow County, NE</td>
+<td>Greeley County, KS</td>
+<td>KGLD</td>
+</tr>
+<tr>
+<td>AJK</td>
+<td>Juneau, AK</td>
+<td>Alaska</td>
+<td>38,830</td>
+<td>73,214</td>
+<td>1</td>
+<td>10</td>
+<td>-</td>
+<td>Juneau City and Borough, AK</td>
+<td>Yakutat City and Borough, AK</td>
+<td>PACG</td>
+</tr>
+<tr>
+<td>GGW</td>
+<td>Glasgow, MT</td>
+<td>Western</td>
+<td>32,098</td>
+<td>54,963</td>
+<td>1</td>
+<td>12</td>
+<td>Sidney, MT</td>
+<td>Richland County, MT</td>
+<td>Petroleum County, MT</td>
+<td>KGGW</td>
+</tr>
+<tr>
+<td>GUM</td>
+<td>Guam, GU</td>
+<td>Pacific</td>
+<td>1,223</td>
+<td>53,883</td>
+<td>N/A</td>
+<td>4</td>
+<td>Dededo, GU</td>
+<td>Saipan</td>
+<td>Rota</td>
+<td>PGUA</td>
+</tr>
+</tbody></table>
+</div>
+
+
+ </body>
+</html>
