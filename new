@@ -30,8 +30,8 @@ window.onload = init;
 <div>
 
 <table id="cwfa" class="cwfa">
-<tbody>
 
+<thead>
 <tr>
 <th>CWFA ID</th>
 <th>WFO Name</th>
@@ -45,26 +45,15 @@ window.onload = init;
 <th>Least Populous County</th>
 <th>NEXRAD Dopplers*</th>
 </tr>
+</thead>
 
-<tr>
-<td>Total</td>
-<td>-</td>
-<td>-</td>
-<td>3,600,542</td>
-<td>327,056,856</td>
-<td>50</td>
-<td>3,214</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
+<tbody>
 <tr>
 <td>OKX</td>
 <td>New York City, NY</td>
 <td>Eastern</td>
-<td>6,380</td>
-<td>18,882,993</td>
+<td>6380</td>
+<td>18882993</td>
 <td>3</td>
 <td>20</td>
 <td>Brooklyn/NYC, NY</td>
@@ -76,8 +65,8 @@ window.onload = init;
 <td>PHI</td>
 <td>Philadelphia, PA</td>
 <td>Eastern</td>
-<td>15,346</td>
-<td>12,065,956</td>
+<td>15346</td>
+<td>12065956</td>
 <td>4</td>
 <td>34</td>
 <td>-</td>
@@ -89,8 +78,8 @@ window.onload = init;
 <td>LOX</td>
 <td>Los Angeles, CA</td>
 <td>Western</td>
-<td>12,028</td>
-<td>11,716,710</td>
+<td>12028</td>
+<td>11716710</td>
 <td>1</td>
 <td>4</td>
 <td>-</td>
@@ -102,8 +91,8 @@ window.onload = init;
 <td>SGX</td>
 <td>San Diego, CA</td>
 <td>Western</td>
-<td>12,089</td>
-<td>11,018,118</td>
+<td>12089</td>
+<td>11018118</td>
 <td>1</td>
 <td>4</td>
 <td>-</td>
@@ -115,8 +104,8 @@ window.onload = init;
 <td>LWX</td>
 <td>Baltimore, MD/Washington, D.C.</td>
 <td>Eastern</td>
-<td>19,067</td>
-<td>10,129,160</td>
+<td>19067</td>
+<td>10129160</td>
 <td>3</td>
 <td>44</td>
 <td>Washington, D.C.</td>
@@ -128,8 +117,8 @@ window.onload = init;
 <td>LOT</td>
 <td>Chicago, IL</td>
 <td>Central</td>
-<td>14,204</td>
-<td>10,077,451</td>
+<td>14204</td>
+<td>10077451</td>
 <td>2</td>
 <td>23</td>
 <td>-</td>
@@ -141,8 +130,8 @@ window.onload = init;
 <td>BOX</td>
 <td>Boston, MA</td>
 <td>Eastern</td>
-<td>9,933</td>
-<td>8,901,001</td>
+<td>9933</td>
+<td>8901001</td>
 <td>3</td>
 <td>21</td>
 <td>-</td>
@@ -154,8 +143,8 @@ window.onload = init;
 <td>FWD</td>
 <td>Dallas/Forth Worth, TX</td>
 <td>Southern</td>
-<td>39,373</td>
-<td>8,805,236</td>
+<td>39373</td>
+<td>8805236</td>
 <td>1</td>
 <td>46</td>
 <td>Dallas, TX</td>
@@ -167,8 +156,8 @@ window.onload = init;
 <td>FFC</td>
 <td>Atlanta, GA</td>
 <td>Southern</td>
-<td>32,212</td>
-<td>8,159,073</td>
+<td>32212</td>
+<td>8159073</td>
 <td>1</td>
 <td>96</td>
 <td>-</td>
@@ -180,8 +169,8 @@ window.onload = init;
 <td>MTR</td>
 <td>San Francisco Bay Area, CA</td>
 <td>Western</td>
-<td>11,344</td>
-<td>8,013,123</td>
+<td>11344</td>
+<td>8013123</td>
 <td>1</td>
 <td>11</td>
 <td>San Jose, CA</td>
@@ -193,8 +182,8 @@ window.onload = init;
 <td>HGX</td>
 <td>Houston/Galveston, TX</td>
 <td>Southern</td>
-<td>20,271</td>
-<td>7,386,474</td>
+<td>20271</td>
+<td>7386474</td>
 <td>1</td>
 <td>23</td>
 <td>Houston, TX</td>
@@ -206,8 +195,8 @@ window.onload = init;
 <td>MFL</td>
 <td>Miami, FL</td>
 <td>Southern</td>
-<td>9,922</td>
-<td>6,563,860</td>
+<td>9922</td>
+<td>6563860</td>
 <td>1</td>
 <td>7</td>
 <td>-</td>
@@ -219,8 +208,8 @@ window.onload = init;
 <td>ILN</td>
 <td>Cincinnati, OH</td>
 <td>Eastern</td>
-<td>20,374</td>
-<td>5,943,859</td>
+<td>20374</td>
+<td>5943859</td>
 <td>3</td>
 <td>52</td>
 <td>Columbus, OH</td>
@@ -232,8 +221,8 @@ window.onload = init;
 <td>TBW</td>
 <td>Tampa Bay Area, FL</td>
 <td>Southern</td>
-<td>12,248</td>
-<td>5,859,233</td>
+<td>12248</td>
+<td>5859233</td>
 <td>1</td>
 <td>15</td>
 <td>Tampa, FL</td>
@@ -245,8 +234,8 @@ window.onload = init;
 <td>CLE</td>
 <td>Cleveland, OH</td>
 <td>Eastern</td>
-<td>14,668</td>
-<td>5,511,729</td>
+<td>14668</td>
+<td>5511729</td>
 <td>2</td>
 <td>30</td>
 <td>-</td>
@@ -258,8 +247,8 @@ window.onload = init;
 <td>GSP</td>
 <td>Greenville/Spartanburg, SC</td>
 <td>Eastern</td>
-<td>21,243</td>
-<td>5,251,225</td>
+<td>21243</td>
+<td>5251225</td>
 <td>3</td>
 <td>46</td>
 <td>Charlotte, NC</td>
@@ -271,8 +260,8 @@ window.onload = init;
 <td>SEW</td>
 <td>Seattle/Tacoma, WA</td>
 <td>Western</td>
-<td>20,356</td>
-<td>5,094,992</td>
+<td>20356</td>
+<td>5094992</td>
 <td>1</td>
 <td>14</td>
 <td>Seattle, WA</td>
@@ -284,8 +273,8 @@ window.onload = init;
 <td>STO</td>
 <td>Sacramento, CA</td>
 <td>Western</td>
-<td>28,509</td>
-<td>4,997,043</td>
+<td>28509</td>
+<td>4997043</td>
 <td>1</td>
 <td>23</td>
 <td>-</td>
@@ -297,8 +286,8 @@ window.onload = init;
 <td>EWX</td>
 <td>Austin/San Antonio, TX</td>
 <td>Southern</td>
-<td>35,871</td>
-<td>4,945,558</td>
+<td>35871</td>
+<td>4945558</td>
 <td>1</td>
 <td>33</td>
 <td>San Antonio, TX</td>
@@ -310,8 +299,8 @@ window.onload = init;
 <td>MPX</td>
 <td>Minneapolis, MN</td>
 <td>Central</td>
-<td>33,567</td>
-<td>4,737,458</td>
+<td>33567</td>
+<td>4737458</td>
 <td>2</td>
 <td>51</td>
 <td>-</td>
@@ -323,8 +312,8 @@ window.onload = init;
 <td>RAH</td>
 <td>Raleigh, NC</td>
 <td>Eastern</td>
-<td>16,591</td>
-<td>4,675,060</td>
+<td>16591</td>
+<td>4675060</td>
 <td>1</td>
 <td>31</td>
 <td>-</td>
@@ -336,8 +325,8 @@ window.onload = init;
 <td>PSR</td>
 <td>Phoenix, AZ</td>
 <td>Western</td>
-<td>32,334</td>
-<td>4,631,482</td>
+<td>32334</td>
+<td>4631482</td>
 <td>2</td>
 <td>8</td>
 <td>-</td>
@@ -349,8 +338,8 @@ window.onload = init;
 <td>MLB</td>
 <td>Melbourne, FL</td>
 <td>Southern</td>
-<td>8,721</td>
-<td>4,206,836</td>
+<td>8721</td>
+<td>4206836</td>
 <td>1</td>
 <td>10</td>
 <td>Orlando, FL</td>
@@ -362,8 +351,8 @@ window.onload = init;
 <td>BOU</td>
 <td>Denver/Boulder, CO</td>
 <td>Central</td>
-<td>29,390</td>
-<td>3,924,406</td>
+<td>29390</td>
+<td>3924406</td>
 <td>1</td>
 <td>22</td>
 <td>Denver, CO</td>
@@ -375,8 +364,8 @@ window.onload = init;
 <td>PBZ</td>
 <td>Pittsburgh, PA</td>
 <td>Eastern</td>
-<td>19,049</td>
-<td>3,747,036</td>
+<td>19049</td>
+<td>3747036</td>
 <td>4</td>
 <td>36</td>
 <td>-</td>
@@ -388,8 +377,8 @@ window.onload = init;
 <td>AKQ</td>
 <td>Wakefield, VA</td>
 <td>Eastern</td>
-<td>18,933</td>
-<td>3,705,740</td>
+<td>18933</td>
+<td>3705740</td>
 <td>3</td>
 <td>51</td>
 <td>Virginia Beach, VA</td>
@@ -401,8 +390,8 @@ window.onload = init;
 <td>PQR</td>
 <td>Portland, OR</td>
 <td>Western</td>
-<td>22,168</td>
-<td>3,691,208</td>
+<td>22168</td>
+<td>3691208</td>
 <td>2</td>
 <td>19</td>
 <td>-</td>
@@ -414,8 +403,8 @@ window.onload = init;
 <td>LSX</td>
 <td>St. Louis, MO</td>
 <td>Central</td>
-<td>26,695</td>
-<td>3,673,795</td>
+<td>26695</td>
+<td>3673795</td>
 <td>2</td>
 <td>46</td>
 <td>-</td>
@@ -427,9 +416,9 @@ window.onload = init;
 <td>SJU</td>
 <td>San Juan, PR</td>
 <td>Southern</td>
-<td>3,583</td>
-<td>3,659,351</td>
-<td>N/A</td>
+<td>3583</td>
+<td>3659351</td>
+<td>NA</td>
 <td>81</td>
 <td>-</td>
 <td>San Juan Minicipio, PR</td>
@@ -440,8 +429,8 @@ window.onload = init;
 <td>CTP</td>
 <td>Central Pennsylvania, PA</td>
 <td>Eastern</td>
-<td>23,392</td>
-<td>3,444,423</td>
+<td>23392</td>
+<td>3444423</td>
 <td>1</td>
 <td>33</td>
 <td>Lancaster, PA</td>
@@ -453,8 +442,8 @@ window.onload = init;
 <td>MKX</td>
 <td>Milwaukee, WI</td>
 <td>Central</td>
-<td>11,910</td>
-<td>3,354,065</td>
+<td>11910</td>
+<td>3354065</td>
 <td>1</td>
 <td>20</td>
 <td>-</td>
@@ -466,8 +455,8 @@ window.onload = init;
 <td>IND</td>
 <td>Indianapolis, IN</td>
 <td>Central</td>
-<td>15,809</td>
-<td>3,303,254</td>
+<td>15809</td>
+<td>3303254</td>
 <td>1</td>
 <td>39</td>
 <td>-</td>
@@ -479,8 +468,8 @@ window.onload = init;
 <td>LIX</td>
 <td>New Orleans/Baton Rouge, LA</td>
 <td>Southern</td>
-<td>17,367</td>
-<td>3,037,645</td>
+<td>17367</td>
+<td>3037645</td>
 <td>2</td>
 <td>30</td>
 <td>New Orleans, LA</td>
@@ -492,8 +481,8 @@ window.onload = init;
 <td>SLC</td>
 <td>Salt Lake City, UT</td>
 <td>Western</td>
-<td>71,018</td>
-<td>3,010,197</td>
+<td>71018</td>
+<td>3010197</td>
 <td>2</td>
 <td>27</td>
 <td>-</td>
@@ -505,8 +494,8 @@ window.onload = init;
 <td>HNX</td>
 <td>San Joaquin Valley, CA</td>
 <td>Western</td>
-<td>26,664</td>
-<td>2,969,508</td>
+<td>26664</td>
+<td>2969508</td>
 <td>1</td>
 <td>8</td>
 <td>Fresno, CA</td>
@@ -518,8 +507,8 @@ window.onload = init;
 <td>LMK</td>
 <td>Louisville, KY</td>
 <td>Central</td>
-<td>19,778</td>
-<td>2,906,182</td>
+<td>19778</td>
+<td>2906182</td>
 <td>2</td>
 <td>59</td>
 <td>-</td>
@@ -531,8 +520,8 @@ window.onload = init;
 <td>BUF</td>
 <td>Buffalo, NY</td>
 <td>Eastern</td>
-<td>12,892</td>
-<td>2,878,010</td>
+<td>12892</td>
+<td>2878010</td>
 <td>1</td>
 <td>16</td>
 <td>-</td>
@@ -544,8 +533,8 @@ window.onload = init;
 <td>GRR</td>
 <td>Grand Rapids. MI</td>
 <td>Central</td>
-<td>14,418</td>
-<td>2,828,619</td>
+<td>14418</td>
+<td>2828619</td>
 <td>1</td>
 <td>23</td>
 <td>-</td>
@@ -557,8 +546,8 @@ window.onload = init;
 <td>JAX</td>
 <td>Jacksonville, FL</td>
 <td>Southern</td>
-<td>17,775</td>
-<td>2,818,177</td>
+<td>17775</td>
+<td>2818177</td>
 <td>2</td>
 <td>29</td>
 <td>-</td>
@@ -570,8 +559,8 @@ window.onload = init;
 <td>VEF</td>
 <td>Las Vegas, NV</td>
 <td>Western</td>
-<td>69,775</td>
-<td>2,780,115</td>
+<td>69775</td>
+<td>2780115</td>
 <td>3</td>
 <td>7</td>
 <td>-</td>
@@ -583,8 +572,8 @@ window.onload = init;
 <td>MEG</td>
 <td>Memphis, TN</td>
 <td>Southern</td>
-<td>31,609</td>
-<td>2,741,049</td>
+<td>31609</td>
+<td>2741049</td>
 <td>4</td>
 <td>57</td>
 <td>-</td>
@@ -596,8 +585,8 @@ window.onload = init;
 <td>BMX</td>
 <td>Birmingham, AL</td>
 <td>Southern</td>
-<td>28,325</td>
-<td>2,702,662</td>
+<td>28325</td>
+<td>2702662</td>
 <td>1</td>
 <td>39</td>
 <td>-</td>
@@ -606,24 +595,11 @@ window.onload = init;
 <td>KBMX</td>
 </tr>
 <tr>
-<td>Average</td>
-<td>-</td>
-<td>-</td>
-<td>29,512</td>
-<td>2,680,794</td>
-<td>1.8</td>
-<td>26.34</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
 <td>OHX</td>
 <td>Nashville, TN</td>
 <td>Southern</td>
-<td>16,688</td>
-<td>2,648,483</td>
+<td>16688</td>
+<td>2648483</td>
 <td>1</td>
 <td>38</td>
 <td>-</td>
@@ -635,8 +611,8 @@ window.onload = init;
 <td>EAX</td>
 <td>Kansas City/Pleasant Hill, MO</td>
 <td>Central</td>
-<td>24,360</td>
-<td>2,612,533</td>
+<td>24360</td>
+<td>2612533</td>
 <td>2</td>
 <td>44</td>
 <td>Kansas City, MO</td>
@@ -648,8 +624,8 @@ window.onload = init;
 <td>MRX</td>
 <td>Knoxville/Tri-Cities, TN</td>
 <td>Southern</td>
-<td>16,404</td>
-<td>2,586,149</td>
+<td>16404</td>
+<td>2586149</td>
 <td>3</td>
 <td>42</td>
 <td>Knoxville, TN</td>
@@ -661,8 +637,8 @@ window.onload = init;
 <td>OUN</td>
 <td>Oklahoma City, OK</td>
 <td>Southern</td>
-<td>48,103</td>
-<td>2,503,074</td>
+<td>48103</td>
+<td>2503074</td>
 <td>2</td>
 <td>56</td>
 <td>-</td>
@@ -674,8 +650,8 @@ window.onload = init;
 <td>BGM</td>
 <td>Binghamton, NY</td>
 <td>Eastern</td>
-<td>17,854</td>
-<td>2,496,799</td>
+<td>17854</td>
+<td>2496799</td>
 <td>2</td>
 <td>24</td>
 <td>Syracuse, NY</td>
@@ -687,8 +663,8 @@ window.onload = init;
 <td>IWX</td>
 <td>Northern Indiana, IN</td>
 <td>Central</td>
-<td>16,050</td>
-<td>2,347,165</td>
+<td>16050</td>
+<td>2347165</td>
 <td>3</td>
 <td>37</td>
 <td>Fort Wayne, IN</td>
@@ -700,8 +676,8 @@ window.onload = init;
 <td>GYX</td>
 <td>Portland, ME</td>
 <td>Eastern</td>
-<td>21,650</td>
-<td>2,343,797</td>
+<td>21650</td>
+<td>2343797</td>
 <td>2</td>
 <td>21</td>
 <td>Manchester, NH</td>
@@ -713,8 +689,8 @@ window.onload = init;
 <td>TSA</td>
 <td>Tulsa, OK</td>
 <td>Southern</td>
-<td>26,083</td>
-<td>2,272,985</td>
+<td>26083</td>
+<td>2272985</td>
 <td>2</td>
 <td>32</td>
 <td>-</td>
@@ -726,8 +702,8 @@ window.onload = init;
 <td>ALY</td>
 <td>Albany, NY</td>
 <td>Eastern</td>
-<td>15,524</td>
-<td>2,149,470</td>
+<td>15524</td>
+<td>2149470</td>
 <td>4</td>
 <td>19</td>
 <td>-</td>
@@ -739,8 +715,8 @@ window.onload = init;
 <td>SHV</td>
 <td>Shreveport, LA</td>
 <td>Southern</td>
-<td>35,684</td>
-<td>2,110,414</td>
+<td>35684</td>
+<td>2110414</td>
 <td>4</td>
 <td>48</td>
 <td>-</td>
@@ -752,8 +728,8 @@ window.onload = init;
 <td>SHV</td>
 <td>Shreveport, LA</td>
 <td>Southern</td>
-<td>35,684</td>
-<td>2,110,414</td>
+<td>35684</td>
+<td>2110414</td>
 <td>4</td>
 <td>48</td>
 <td>-</td>
@@ -765,8 +741,8 @@ window.onload = init;
 <td>CAE</td>
 <td>Columbia, SC</td>
 <td>Eastern</td>
-<td>13,688</td>
-<td>1,878,538</td>
+<td>13688</td>
+<td>1878538</td>
 <td>2</td>
 <td>23</td>
 <td>-</td>
@@ -778,8 +754,8 @@ window.onload = init;
 <td>JAN</td>
 <td>Jackson, MS</td>
 <td>Southern</td>
-<td>35,381</td>
-<td>1,796,323</td>
+<td>35381</td>
+<td>1796323</td>
 <td>3</td>
 <td>58</td>
 <td>-</td>
@@ -791,8 +767,8 @@ window.onload = init;
 <td>RNK</td>
 <td>Blacksburg, VA</td>
 <td>Eastern</td>
-<td>19,988</td>
-<td>1,781,473</td>
+<td>19988</td>
+<td>1781473</td>
 <td>3</td>
 <td>40</td>
 <td>Roanoke, VA</td>
@@ -804,8 +780,8 @@ window.onload = init;
 <td>TAE</td>
 <td>Tallahassee, FL</td>
 <td>Southern</td>
-<td>24,777</td>
-<td>1,699,143</td>
+<td>24777</td>
+<td>1699143</td>
 <td>3</td>
 <td>48</td>
 <td>-</td>
@@ -817,8 +793,8 @@ window.onload = init;
 <td>ILX</td>
 <td>Central Illinois, IL</td>
 <td>Central</td>
-<td>19,523</td>
-<td>1,668,007</td>
+<td>19523</td>
+<td>1668007</td>
 <td>1</td>
 <td>35</td>
 <td>Springfield, IL</td>
@@ -830,8 +806,8 @@ window.onload = init;
 <td>CHS</td>
 <td>Charleston, SC</td>
 <td>Eastern</td>
-<td>11,779</td>
-<td>1,662,904</td>
+<td>11779</td>
+<td>1662904</td>
 <td>2</td>
 <td>20</td>
 <td>-</td>
@@ -843,8 +819,8 @@ window.onload = init;
 <td>LCH</td>
 <td>Lake Charles, LA</td>
 <td>Southern</td>
-<td>19,821</td>
-<td>1,653,766</td>
+<td>19821</td>
+<td>1653766</td>
 <td>2</td>
 <td>22</td>
 <td>Lafayette, LA</td>
@@ -856,8 +832,8 @@ window.onload = init;
 <td>LZK</td>
 <td>Little Rock, AR</td>
 <td>Southern</td>
-<td>32,245</td>
-<td>1,644,388</td>
+<td>32245</td>
+<td>1644388</td>
 <td>1</td>
 <td>45</td>
 <td>-</td>
@@ -869,8 +845,8 @@ window.onload = init;
 <td>MOB</td>
 <td>Mobile, AL</td>
 <td>Southern</td>
-<td>18,047</td>
-<td>1,606,242</td>
+<td>18047</td>
+<td>1606242</td>
 <td>3</td>
 <td>20</td>
 <td>-</td>
@@ -882,8 +858,8 @@ window.onload = init;
 <td>ABQ</td>
 <td>Albuquerque, NM</td>
 <td>Southern</td>
-<td>87,942</td>
-<td>1,605,805</td>
+<td>87942</td>
+<td>1605805</td>
 <td>1</td>
 <td>25</td>
 <td>-</td>
@@ -895,8 +871,8 @@ window.onload = init;
 <td>RLX</td>
 <td>Charleston, WV</td>
 <td>Eastern</td>
-<td>22,097</td>
-<td>1,594,889</td>
+<td>22097</td>
+<td>1594889</td>
 <td>4</td>
 <td>49</td>
 <td>-</td>
@@ -908,8 +884,8 @@ window.onload = init;
 <td>PAH</td>
 <td>Paducah, KY</td>
 <td>Central</td>
-<td>24,692</td>
-<td>1,593,768</td>
+<td>24692</td>
+<td>1593768</td>
 <td>4</td>
 <td>58</td>
 <td>Evansville, IN</td>
@@ -921,8 +897,8 @@ window.onload = init;
 <td>OAX</td>
 <td>Omaha, NE</td>
 <td>Central</td>
-<td>22,164</td>
-<td>1,583,715</td>
+<td>22164</td>
+<td>1583715</td>
 <td>2</td>
 <td>38</td>
 <td>-</td>
@@ -934,8 +910,8 @@ window.onload = init;
 <td>DMX</td>
 <td>Des Moines, IA</td>
 <td>Central</td>
-<td>28,185</td>
-<td>1,541,872</td>
+<td>28185</td>
+<td>1541872</td>
 <td>1</td>
 <td>51</td>
 <td>-</td>
@@ -947,8 +923,8 @@ window.onload = init;
 <td>DVN</td>
 <td>Quad Cities, IA</td>
 <td>Central</td>
-<td>20,291</td>
-<td>1,502,297</td>
+<td>20291</td>
+<td>1502297</td>
 <td>3</td>
 <td>36</td>
 <td>Cedar Rapids, IA</td>
@@ -960,8 +936,8 @@ window.onload = init;
 <td>HFO</td>
 <td>Honolulu, HI</td>
 <td>Pacific</td>
-<td>6,431</td>
-<td>1,428,469</td>
+<td>6431</td>
+<td>1428469</td>
 <td>1</td>
 <td>5</td>
 <td>-</td>
@@ -973,8 +949,8 @@ window.onload = init;
 <td>GRB</td>
 <td>Green Bay, WI</td>
 <td>Central</td>
-<td>17,511</td>
-<td>1,387,941</td>
+<td>17511</td>
+<td>1387941</td>
 <td>1</td>
 <td>22</td>
 <td>-</td>
@@ -986,8 +962,8 @@ window.onload = init;
 <td>BRO</td>
 <td>Brownsville, TX</td>
 <td>Southern</td>
-<td>8,957</td>
-<td>1,385,023</td>
+<td>8957</td>
+<td>1385023</td>
 <td>1</td>
 <td>8</td>
 <td>-</td>
@@ -999,8 +975,8 @@ window.onload = init;
 <td>SGF</td>
 <td>Springfield, MO</td>
 <td>Central</td>
-<td>24,882</td>
-<td>1,357,671</td>
+<td>24882</td>
+<td>1357671</td>
 <td>2</td>
 <td>37</td>
 <td>-</td>
@@ -1012,8 +988,8 @@ window.onload = init;
 <td>ILM</td>
 <td>Wilmington, NC</td>
 <td>Eastern</td>
-<td>10,498</td>
-<td>1,344,208</td>
+<td>10498</td>
+<td>1344208</td>
 <td>2</td>
 <td>14</td>
 <td>-</td>
@@ -1025,8 +1001,8 @@ window.onload = init;
 <td>TWC</td>
 <td>Tucson, AZ</td>
 <td>Western</td>
-<td>26,286</td>
-<td>1,278,713</td>
+<td>26286</td>
+<td>1278713</td>
 <td>1</td>
 <td>6</td>
 <td>-</td>
@@ -1038,8 +1014,8 @@ window.onload = init;
 <td>OTX</td>
 <td>Spokane, WA</td>
 <td>Western</td>
-<td>39,101</td>
-<td>1,233,495</td>
+<td>39101</td>
+<td>1233495</td>
 <td>2</td>
 <td>21</td>
 <td>-</td>
@@ -1051,8 +1027,8 @@ window.onload = init;
 <td>EPZ</td>
 <td>El Paso, TX</td>
 <td>Southern</td>
-<td>30,643</td>
-<td>1,189,811</td>
+<td>30643</td>
+<td>1189811</td>
 <td>2</td>
 <td>8</td>
 <td>-</td>
@@ -1064,8 +1040,8 @@ window.onload = init;
 <td>HUN</td>
 <td>Huntsville, AL</td>
 <td>Southern</td>
-<td>9,286</td>
-<td>1,162,472</td>
+<td>9286</td>
+<td>1162472</td>
 <td>2</td>
 <td>14</td>
 <td>-</td>
@@ -1077,8 +1053,8 @@ window.onload = init;
 <td>PUB</td>
 <td>Pueblo, CO</td>
 <td>Central</td>
-<td>32,931</td>
-<td>1,070,771</td>
+<td>32931</td>
+<td>1070771</td>
 <td>1</td>
 <td>21</td>
 <td>Colorado Springs, CO</td>
@@ -1090,8 +1066,8 @@ window.onload = init;
 <td>PDT</td>
 <td>Pendleton, OR</td>
 <td>Western</td>
-<td>42,745</td>
-<td>1,049,828</td>
+<td>42745</td>
+<td>1049828</td>
 <td>2</td>
 <td>19</td>
 <td>Yakima, WA</td>
@@ -1103,8 +1079,8 @@ window.onload = init;
 <td>ICT</td>
 <td>Wichita, KS</td>
 <td>Central</td>
-<td>21,496</td>
-<td>1,007,062</td>
+<td>21496</td>
+<td>1007062</td>
 <td>1</td>
 <td>26</td>
 <td>-</td>
@@ -1116,8 +1092,8 @@ window.onload = init;
 <td>CRP</td>
 <td>Corpus Christi, TX</td>
 <td>Southern</td>
-<td>16,392</td>
-<td>992,679</td>
+<td>16392</td>
+<td>992679</td>
 <td>1</td>
 <td>15</td>
 <td>-</td>
@@ -1129,8 +1105,8 @@ window.onload = init;
 <td>BOI</td>
 <td>Boise, ID</td>
 <td>Western</td>
-<td>49,506</td>
-<td>941,590</td>
+<td>49506</td>
+<td>941590</td>
 <td>2</td>
 <td>17</td>
 <td>-</td>
@@ -1142,8 +1118,8 @@ window.onload = init;
 <td>ARX</td>
 <td>La Crosse, WI</td>
 <td>Central</td>
-<td>19,975</td>
-<td>890,092</td>
+<td>19975</td>
+<td>890092</td>
 <td>3</td>
 <td>28</td>
 <td>Rochester, MN</td>
@@ -1155,8 +1131,8 @@ window.onload = init;
 <td>FSD</td>
 <td>Sioux Falls, SD</td>
 <td>Central</td>
-<td>28,587</td>
-<td>847,981</td>
+<td>28587</td>
+<td>847981</td>
 <td>4</td>
 <td>45</td>
 <td>-</td>
@@ -1168,8 +1144,8 @@ window.onload = init;
 <td>MHX</td>
 <td>Morehead City, NC</td>
 <td>Eastern</td>
-<td>8,101</td>
-<td>825,316</td>
+<td>8101</td>
+<td>825316</td>
 <td>1</td>
 <td>15</td>
 <td>Greenville, NC</td>
@@ -1181,8 +1157,8 @@ window.onload = init;
 <td>BTV</td>
 <td>Burlington, VT</td>
 <td>Eastern</td>
-<td>15,638</td>
-<td>824,880</td>
+<td>15638</td>
+<td>824880</td>
 <td>2</td>
 <td>16</td>
 <td>-</td>
@@ -1194,8 +1170,8 @@ window.onload = init;
 <td>REV</td>
 <td>Reno, NV</td>
 <td>Western</td>
-<td>35,609</td>
-<td>741,618</td>
+<td>35609</td>
+<td>741618</td>
 <td>2</td>
 <td>16</td>
 <td>-</td>
@@ -1207,8 +1183,8 @@ window.onload = init;
 <td>JKL</td>
 <td>Jackson, KY</td>
 <td>Central</td>
-<td>11,770</td>
-<td>721,228</td>
+<td>11770</td>
+<td>721228</td>
 <td>1</td>
 <td>33</td>
 <td>Somerset, KY</td>
@@ -1220,8 +1196,8 @@ window.onload = init;
 <td>FGF</td>
 <td>Eastern North Dakota, ND</td>
 <td>Central</td>
-<td>42,113</td>
-<td>694,304</td>
+<td>42113</td>
+<td>694304</td>
 <td>2</td>
 <td>35</td>
 <td>Fargo, ND</td>
@@ -1233,8 +1209,8 @@ window.onload = init;
 <td>MAF</td>
 <td>Midland/Odessa, TX</td>
 <td>Southern</td>
-<td>51,200</td>
-<td>653,153</td>
+<td>51200</td>
+<td>653153</td>
 <td>2</td>
 <td>26</td>
 <td>Midland, TX</td>
@@ -1246,8 +1222,8 @@ window.onload = init;
 <td>TOP</td>
 <td>Topeka, KS</td>
 <td>Central</td>
-<td>15,790</td>
-<td>648,284</td>
+<td>15790</td>
+<td>648284</td>
 <td>1</td>
 <td>23</td>
 <td>-</td>
@@ -1259,8 +1235,8 @@ window.onload = init;
 <td>MFR</td>
 <td>Medford, OR</td>
 <td>Western</td>
-<td>37,327</td>
-<td>624,040</td>
+<td>37327</td>
+<td>624040</td>
 <td>2</td>
 <td>9</td>
 <td>-</td>
@@ -1272,8 +1248,8 @@ window.onload = init;
 <td>FGZ</td>
 <td>Flagstaff, AZ</td>
 <td>Western</td>
-<td>50,509</td>
-<td>603,164</td>
+<td>50509</td>
+<td>603164</td>
 <td>1</td>
 <td>5</td>
 <td>-</td>
@@ -1285,8 +1261,8 @@ window.onload = init;
 <td>APX</td>
 <td>North Central Lower Michigan, MI</td>
 <td>Central</td>
-<td>15,234</td>
-<td>595,411</td>
+<td>15234</td>
+<td>595411</td>
 <td>1</td>
 <td>25</td>
 <td>Traverse City, MI</td>
@@ -1298,8 +1274,8 @@ window.onload = init;
 <td>GJT</td>
 <td>Grand Junction, CO</td>
 <td>Central</td>
-<td>51,427</td>
-<td>589,164</td>
+<td>51427</td>
+<td>589164</td>
 <td>2</td>
 <td>22</td>
 <td>-</td>
@@ -1311,8 +1287,8 @@ window.onload = init;
 <td>DLH</td>
 <td>Duluth, MN</td>
 <td>Central</td>
-<td>33,653</td>
-<td>587,476</td>
+<td>33653</td>
+<td>587476</td>
 <td>2</td>
 <td>18</td>
 <td>-</td>
@@ -1324,8 +1300,8 @@ window.onload = init;
 <td>AFC</td>
 <td>Anchorage, AK</td>
 <td>Alaska</td>
-<td>184,635</td>
-<td>509,120</td>
+<td>184635</td>
+<td>509120</td>
 <td>1</td>
 <td>15</td>
 <td>-</td>
@@ -1337,8 +1313,8 @@ window.onload = init;
 <td>LUB</td>
 <td>Lubbock, TX</td>
 <td>Southern</td>
-<td>21,547</td>
-<td>473,167</td>
+<td>21547</td>
+<td>473167</td>
 <td>1</td>
 <td>24</td>
 <td>-</td>
@@ -1350,8 +1326,8 @@ window.onload = init;
 <td>PIH</td>
 <td>Pocatello/Idaho Falls, ID</td>
 <td>Western</td>
-<td>31,043</td>
-<td>449,474</td>
+<td>31043</td>
+<td>449474</td>
 <td>1</td>
 <td>19</td>
 <td>Idaho Falls, ID</td>
@@ -1363,8 +1339,8 @@ window.onload = init;
 <td>AMA</td>
 <td>Amarillo, TX</td>
 <td>Southern</td>
-<td>26,390</td>
-<td>429,384</td>
+<td>26390</td>
+<td>429384</td>
 <td>2</td>
 <td>23</td>
 <td>-</td>
@@ -1376,8 +1352,8 @@ window.onload = init;
 <td>SJT</td>
 <td>San Angelo, TX</td>
 <td>Southern</td>
-<td>26,917</td>
-<td>421,105</td>
+<td>26917</td>
+<td>421105</td>
 <td>1</td>
 <td>24</td>
 <td>Abilene, TX</td>
@@ -1389,8 +1365,8 @@ window.onload = init;
 <td>BIS</td>
 <td>Bismarck, ND</td>
 <td>Central</td>
-<td>51,146</td>
-<td>415,111</td>
+<td>51146</td>
+<td>415111</td>
 <td>1</td>
 <td>36</td>
 <td>-</td>
@@ -1402,8 +1378,8 @@ window.onload = init;
 <td>MSO</td>
 <td>Missoula, MT</td>
 <td>Western</td>
-<td>40,704</td>
-<td>407,275</td>
+<td>40704</td>
+<td>407275</td>
 <td>2</td>
 <td>14</td>
 <td>-</td>
@@ -1415,8 +1391,8 @@ window.onload = init;
 <td>TFX</td>
 <td>Great Falls, MT</td>
 <td>Western</td>
-<td>51,041</td>
-<td>365,766</td>
+<td>51041</td>
+<td>365766</td>
 <td>1</td>
 <td>18</td>
 <td>-</td>
@@ -1428,8 +1404,8 @@ window.onload = init;
 <td>CAR</td>
 <td>Caribou, ME</td>
 <td>Eastern</td>
-<td>20,141</td>
-<td>322,477</td>
+<td>20141</td>
+<td>322477</td>
 <td>1</td>
 <td>6</td>
 <td>Bangor, ME</td>
@@ -1441,8 +1417,8 @@ window.onload = init;
 <td>GID</td>
 <td>Hastings, NE</td>
 <td>Central</td>
-<td>19,387</td>
-<td>302,902</td>
+<td>19387</td>
+<td>302902</td>
 <td>2</td>
 <td>30</td>
 <td>Grand Island, NE</td>
@@ -1454,8 +1430,8 @@ window.onload = init;
 <td>UNR</td>
 <td>Rapid City, SD</td>
 <td>Central</td>
-<td>41,556</td>
-<td>299,403</td>
+<td>41556</td>
+<td>299403</td>
 <td>2</td>
 <td>19</td>
 <td>-</td>
@@ -1467,8 +1443,8 @@ window.onload = init;
 <td>RIW</td>
 <td>Riverton, WY</td>
 <td>Central</td>
-<td>56,930</td>
-<td>280,274</td>
+<td>56930</td>
+<td>280274</td>
 <td>1</td>
 <td>11</td>
 <td>Casper, WY</td>
@@ -1480,8 +1456,8 @@ window.onload = init;
 <td>BYZ</td>
 <td>Billings, MT</td>
 <td>Western</td>
-<td>41,281</td>
-<td>277,092</td>
+<td>41281</td>
+<td>277092</td>
 <td>2</td>
 <td>16</td>
 <td>-</td>
@@ -1493,8 +1469,8 @@ window.onload = init;
 <td>CYS</td>
 <td>Cheyenne, WY</td>
 <td>Central</td>
-<td>35,813</td>
-<td>267,903</td>
+<td>35813</td>
+<td>267903</td>
 <td>2</td>
 <td>15</td>
 <td>-</td>
@@ -1506,8 +1482,8 @@ window.onload = init;
 <td>EKA</td>
 <td>Eureka, CA</td>
 <td>Western</td>
-<td>11,318</td>
-<td>264,596</td>
+<td>11318</td>
+<td>264596</td>
 <td>1</td>
 <td>4</td>
 <td>-</td>
@@ -1519,8 +1495,8 @@ window.onload = init;
 <td>MQT</td>
 <td>Marquette, MI</td>
 <td>Central</td>
-<td>14,148</td>
-<td>254,637</td>
+<td>14148</td>
+<td>254637</td>
 <td>1</td>
 <td>13</td>
 <td>-</td>
@@ -1532,8 +1508,8 @@ window.onload = init;
 <td>DDC</td>
 <td>Dodge City, KS</td>
 <td>Central</td>
-<td>22,742</td>
-<td>213,152</td>
+<td>22742</td>
+<td>213152</td>
 <td>1</td>
 <td>27</td>
 <td>-</td>
@@ -1545,8 +1521,8 @@ window.onload = init;
 <td>ABR</td>
 <td>Aberdeen, SD</td>
 <td>Central</td>
-<td>30,573</td>
-<td>185,161</td>
+<td>30573</td>
+<td>185161</td>
 <td>2</td>
 <td>28</td>
 <td>-</td>
@@ -1558,8 +1534,8 @@ window.onload = init;
 <td>AFG</td>
 <td>Fairbanks, AK</td>
 <td>Alaska</td>
-<td>359,037</td>
-<td>142,156</td>
+<td>359037</td>
+<td>142156</td>
 <td>1</td>
 <td>11</td>
 <td>-</td>
@@ -1571,8 +1547,8 @@ window.onload = init;
 <td>LKN</td>
 <td>Elko, NV</td>
 <td>Western</td>
-<td>56,097</td>
-<td>129,734</td>
+<td>56097</td>
+<td>129734</td>
 <td>1</td>
 <td>6</td>
 <td>-</td>
@@ -1584,8 +1560,8 @@ window.onload = init;
 <td>LBF</td>
 <td>North Platte, NE</td>
 <td>Central</td>
-<td>33,161</td>
-<td>104,631</td>
+<td>33161</td>
+<td>104631</td>
 <td>1</td>
 <td>26</td>
 <td>-</td>
@@ -1598,7 +1574,7 @@ window.onload = init;
 <td>Key West, FL</td>
 <td>Southern</td>
 <td>137</td>
-<td>79,077</td>
+<td>79077</td>
 <td>1</td>
 <td>1</td>
 <td>-</td>
@@ -1610,8 +1586,8 @@ window.onload = init;
 <td>GLD</td>
 <td>Goodland, KS</td>
 <td>Central</td>
-<td>21,017</td>
-<td>78,314</td>
+<td>21017</td>
+<td>78314</td>
 <td>3</td>
 <td>19</td>
 <td>Colby, KS</td>
@@ -1623,8 +1599,8 @@ window.onload = init;
 <td>AJK</td>
 <td>Juneau, AK</td>
 <td>Alaska</td>
-<td>38,830</td>
-<td>73,214</td>
+<td>38830</td>
+<td>73214</td>
 <td>1</td>
 <td>10</td>
 <td>-</td>
@@ -1636,8 +1612,8 @@ window.onload = init;
 <td>GGW</td>
 <td>Glasgow, MT</td>
 <td>Western</td>
-<td>32,098</td>
-<td>54,963</td>
+<td>32098</td>
+<td>54963</td>
 <td>1</td>
 <td>12</td>
 <td>Sidney, MT</td>
@@ -1649,9 +1625,9 @@ window.onload = init;
 <td>GUM</td>
 <td>Guam, GU</td>
 <td>Pacific</td>
-<td>1,223</td>
-<td>53,883</td>
-<td>N/A</td>
+<td>1223</td>
+<td>53883</td>
+<td>NA</td>
 <td>4</td>
 <td>Dededo, GU</td>
 <td>Saipan</td>
